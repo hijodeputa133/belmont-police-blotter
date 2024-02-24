@@ -1,11 +1,7 @@
 name: Just wait 300 seconds
 on:
   pull_request:
-    types:
-      - opened
-      - labeled
-      - unlabeled
-      - synchronize
+    type
 
 permissions:
   actions: read
